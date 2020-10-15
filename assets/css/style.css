@@ -213,7 +213,96 @@ sub { bottom: -.25em; }
    Header starts
    ========================================================================== */
 
-   .header{
-     width: 100%;
-     background-color: var(--secondary-color);
-   }
+  .header{
+    width: 100%;
+    background-color: var(--secondary-color);
+  }
+
+  .header .wrapper {
+    justify-content: space-between;
+  }
+
+  .logo{
+    width: calc(20% - 7px);
+    padding: 25px 0px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo a{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+  }
+
+  .logo a .logo-bold-text{
+    color: #EAEEF1;
+    font-size: 9.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  nav{
+    width: calc(60% - 4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav .menu{
+    width: 100%;
+    padding: 0px 35px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu-links{
+    padding: 15px;
+    color: var(--secondary-text-color);
+    position: relative;
+    font-size: 11.5px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: .2s ease;
+  }
+
+  .menu-links:hover::after{
+    content: '';
+    border-right:  4px solid transparent;
+    border-left:  4px solid transparent;
+    border-top:  4px solid var(--main-color);
+    margin-top: 5px;
+    display: block;
+    position:  absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }  
+
+  .menu li .active{
+    color: var(--main-color);
+  }
+
+  .header-media-icons{
+    width: calc(20% - 4px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .header-media-icons li a{
+    margin-left: 15px;
+    font-size: 25px;
+    color: #808C94;
+  } 
+
+
+
+/* ==========================================================================
+   Header ends
+   ========================================================================== */
+
+/* ==========================================================================
+   Banner starts
+   ========================================================================== */
