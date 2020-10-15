@@ -451,6 +451,13 @@ sub { bottom: -.25em; }
     background-color: #EAEEF1;
   }
 
+  .services .wrapper{
+    padding: 60px 0px 30px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .services-info{
     margin: 15px 0px;
     color: var(--main-text-color);
@@ -459,17 +466,17 @@ sub { bottom: -.25em; }
     text-align: center;
   }
 
-  .services .wrapper{
-    margin: 60px auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
   .services-cards-container{
     width: 100%;
     margin: 20px 0px 0px 0px;
     display: flex;
+    justify-content: space-between;
+  }
+
+  .service-card{
+    width: calc(32% - 4px);
+    border: 10px solid var(--secondary-text-color);
+    text-align: center;
   }
 
 
