@@ -203,6 +203,7 @@ sub { bottom: -.25em; }
   }*/
   
   .headline{
+    color: var(--main-text-color);
     font-size: 35px;
     font-weight: bold;
     text-align: center;
@@ -363,7 +364,7 @@ sub { bottom: -.25em; }
    about us start
    ========================================================================== */
 
-   .about-us{
+  .about-us{
     width: 100%;
   }
 
@@ -438,4 +439,40 @@ sub { bottom: -.25em; }
 
 /* ==========================================================================
    about us end
+   ========================================================================== */
+
+   
+/* ==========================================================================
+   Services starts
+   ========================================================================== */
+
+  .services{
+    width: 100%;
+    background-color: #EAEEF1;
+  }
+
+  .services-info{
+    margin: 15px 0px;
+    color: var(--main-text-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .services .wrapper{
+    margin: 60px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .services-cards-container{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+  }
+
+
+/* ==========================================================================
+   Services end
    ========================================================================== */
