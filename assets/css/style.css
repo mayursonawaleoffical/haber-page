@@ -295,9 +295,13 @@ sub { bottom: -.25em; }
     margin-left: 15px;
     font-size: 25px;
     color: #808C94;
+    transition: 0.2s;
   } 
 
-
+  .header-media-icons li a:hover{
+    margin-left: 12px;
+    font-size: 28px;
+  }
 
 /* ==========================================================================
    Header ends
@@ -305,4 +309,51 @@ sub { bottom: -.25em; }
 
 /* ==========================================================================
    Banner starts
+   ========================================================================== */
+
+  .banner, .banner-img{
+    width: 100%;
+  }
+
+  .banner .wrapper{
+    position: relative;
+  }
+
+  .banner-img img{
+    width: inherit;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .slideshow-container{
+    width: 59%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--main-color);
+  }
+
+  .slideshow-container h2{
+    width: calc(80% - 4px);
+    padding: 13px 15px;
+    color: var(--secondary-text-color);
+    margin: 0px auto;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .slideshow-container h2::after{
+    content: '';
+    display: inline-block;
+    background: url();
+    color: var(--secondary-text-color);
+  }
+
+
+   /* ==========================================================================
+   Banner end
    ========================================================================== */
