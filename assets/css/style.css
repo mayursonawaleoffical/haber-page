@@ -214,5 +214,6 @@ sub { bottom: -.25em; }
    ========================================================================== */
 
    .header{
-     
+     width: 100%;
+     background-color: var(--secondary-color);
    }
