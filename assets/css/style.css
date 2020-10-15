@@ -390,12 +390,48 @@ sub { bottom: -.25em; }
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .card-icon{
-    width: 40px;
+    width: 30px;
+    padding: 20px 18px;
     background-color: var(--main-color);
     border-radius: 50%;
+  }
+
+  .card-icon span{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: var(--secondary-text-color);
+    font-size: 29px;
+  }
+
+  .card-title{
+    width: 45%;
+    margin: 10px 0px;
+    color: var(--main-text-color);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .card-info{
+    margin: 10px 0px;
+    color: #b7b2c0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .btn{
+    padding: 10px;
+    border: 1px solid #a9b4bb;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #4f575d;
   }
 
 
