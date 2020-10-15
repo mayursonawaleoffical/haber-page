@@ -155,3 +155,64 @@ sub { bottom: -.25em; }
   font-style: normal;
   font-weight: bold;
 }
+
+/* ==========================================================================
+   2. Body
+   ========================================================================== */
+
+  :root {
+    --main-color: #DC6226;
+    --secondary-color: #404A53;
+    --main-text-color: #404B52;
+    --secondary-text-color: #ffffff;
+  }
+
+   body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+  
+  .wrapper{
+    max-width: 1366px;
+    width: 92%; 
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  a{
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  li{
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  /* .btn{
+    padding: 16px 16px;
+    border: none;
+    border-radius: 7px;
+    background-color: #69AD31;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    transition: .2s ease;
+  }
+  
+  .headline{
+    padding-bottom: 12px;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: .8px;
+  } */
+
+/* ==========================================================================
+   Header starts
+   ========================================================================== */
+
+   .header{
+     
+   }
