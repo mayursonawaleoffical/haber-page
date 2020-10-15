@@ -200,14 +200,15 @@ sub { bottom: -.25em; }
     text-transform: uppercase;
     letter-spacing: 1.3px;
     transition: .2s ease;
-  }
+  }*/
   
   .headline{
-    padding-bottom: 12px;
-    font-size: 38px;
-    font-weight: 600;
-    letter-spacing: .8px;
-  } */
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
 
 /* ==========================================================================
    Header starts
@@ -354,6 +355,51 @@ sub { bottom: -.25em; }
   }
 
 
-   /* ==========================================================================
+/* ==========================================================================
    Banner end
+   ========================================================================== */
+
+/* ==========================================================================
+   about us start
+   ========================================================================== */
+
+   .about-us{
+    width: 100%;
+  }
+
+  .about-us .wrapper{
+    margin: 60px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-us-headline{
+    color: var(--main-text-color);
+  }
+
+  .about-us-card-container{
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+  }
+
+  .about-us-card-container .card{
+    width: calc(25% - 4px);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-icon{
+    width: 40px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+  }
+
+
+
+/* ==========================================================================
+   about us end
    ========================================================================== */
