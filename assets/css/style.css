@@ -603,3 +603,137 @@ sub { bottom: -.25em; }
 /* ==========================================================================
    Our Blog end
    ========================================================================== */
+
+/* ==========================================================================
+   Contact us starts
+   ========================================================================== */
+
+  .contact {
+    width: 100%;
+    background-image: url(/assets/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .contact .wrapper {
+    padding: 60px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .headline {
+    color: var(--secondary-text-color);
+    text-shadow: 2px 1px var(--secondary-color);
+  }
+
+
+  .contact-form {
+    width: 100%;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .input-field:not(:last-of-type) {
+    width: calc(32% - 37px);
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--secondary-text-color);
+  }
+
+  .input-field:nth-child(2) {
+    margin: 15px 0px 15px 0px;
+  }
+
+  .input-field:last-of-type {
+    width: calc(66% - 4px);
+    padding: 10px 0px 100px 10px;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--secondary-text-color);
+    font-family: sans-serif;
+  }
+
+  .input-field::placeholder {
+    color: #d9d9d9;
+  }
+
+  .contact-btn {
+    width: fit-content;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 20px;
+    align-self: flex-end;
+    background-color: var(--main-color);
+    color: var(--secondary-text-color);
+  }
+
+  .contact-btn:hover {
+    background-color: var(--secondary-text-color);
+    color: var(--main-color);
+  }
+
+/* ==========================================================================
+   Contact end
+   ========================================================================== */
+
+/* ==========================================================================
+   Contact deatils start
+   ========================================================================== */
+  
+  .contact-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4f5b61;
+  }
+
+  .contact-details .wrapper {
+    padding: 70px 0px;
+  }
+
+  .contact-item {
+    width: calc(33% - 4px);
+    display: flex;
+  }
+
+  .contact-icon span {
+    padding: 15px 18px;
+    border: 10px solid #6D717C;
+    border-radius: 50%;
+    font-size: 35px;
+    background-color: var(--main-color);
+    color: var(--secondary-text-color);
+  }
+
+  .contact-detail {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-detail, .contact-detail a {
+    padding: 0 5px ;
+    color: var(--secondary-text-color);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+  }
+
+  .contact-detail a:hover {
+    color: var(--main-color);
+  }
+
+
+
+
+/* ==========================================================================
+   Contact deatils end
+   ========================================================================== */
