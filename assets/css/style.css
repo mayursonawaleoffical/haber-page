@@ -590,6 +590,59 @@ sub { bottom: -.25em; }
    ========================================================================== */
 
 /* ==========================================================================
+   Project start
+   ========================================================================== */
+
+  .projects { width: 100%; }
+
+  .projects .wrapper {
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .projects ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item {
+    width: calc(25% - 10px);
+    padding: 10px;
+    transition: .3s ease-in-out;
+  }
+
+  .item img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .item:hover { width: 26%; }
+
+  .wrapper .arrow-btn:first-child::after{
+    content: '\f053';
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+  }
+
+  .wrapper .arrow-btn:last-child::before{
+    content: '\f054';
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+  }
+
+/* ==========================================================================
+   Project end
+   ========================================================================== */
+
+/* ==========================================================================
    Contact us starts
    ========================================================================== */
 
