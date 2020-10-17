@@ -717,7 +717,12 @@ sub { bottom: -.25em; }
     cursor: pointer;
   }
 
-  .item:hover {width: 26%;}
+  .item:hover {
+    margin: 0 10px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
   .wrapper .arrow-btn:first-child::after {
     content: '\f053';
